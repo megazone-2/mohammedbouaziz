@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.portfolio {
+    text-align: center;
+}
+
+
+
+.portfolio  h2{
+    font-size: 3em;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 80px;
+}
+
+.portfolio h4 {
+    font-size: 2em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.projs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    margin: 80px 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .projs {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.projs h4 {
+    text-align: center;
+    margin: 20px auto 0px;
+    font-weight: 500;
+}
+
+.projs p {
+    color: #666a6d;
+    margin-top: 4px;
+}

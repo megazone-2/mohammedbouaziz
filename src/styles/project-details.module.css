@@ -1,0 +1,44 @@
+.details h2{
+    font-size: 3.5rem;
+    margin-top: 80px;
+}
+
+.details h3 {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.html {
+    margin-top: 40px;
+}
+
+.featured {
+    margin-bottom: 40px;
+}
+
+.maintext {
+    text-align: justify;
+    padding: 100px;
+}
+
+@media only screen and (min-width: 300px) {
+    .maintext {
+        text-align: center;
+        padding-left: 30px;
+        
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    *  {
+        padding: 2px;
+    }
+}
+

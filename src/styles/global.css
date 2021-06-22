@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: radial-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+p {
+    margin: 16px auto;
+    line-height: 1.5rem;
+}
+
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+}
+
+@media only screen and (min-width: 300px) {
+    nav {
+        margin: 20px auto;
+        margin-right: 10px;
+    }
+    nav a {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+nav .links {
+    display: inline-block;
+    text-align: right;
+}
+
+nav h1{
+    font-family: 'Unica One', sans-serif;
+    font-size: 21px;
+}
+
+nav a {
+    display: inline-block;
+    margin-left:20px;
+    font-family: 'Unica One', cursive;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent
+}
+nav a:hover {
+    border-color: black;
+}
+
+footer p{
+    text-align: center;
+    color: #bbb;
+    margin: 40px auto;
+
+}

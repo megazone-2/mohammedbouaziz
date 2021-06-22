@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+}
+
+
+
+.header h2 {
+    font-size: 4em;
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+
+.header h3 {
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+
+.header p{
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #0F0f0f;
+    padding: 8px 14px;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: white;
+    margin-left: 2rem;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+
+.card {
+    width: 350px;
+    border-radius: 20px;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 700px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .header h2 {
+        font-size: 3em;
+    }
+    .header p{
+        font-size: 1.2em;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+
+    
+}
+
+.cardHeader {
+    background-image: url("../images/stack.jpg");
+    
+    background-position: center;
+    height: 150px;
+}
+.cardBody {
+    padding: 0 20px 30px;
+}
+
+
+.imgHolder {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -50px auto 30px auto;
+}
+
+.imgHolder .image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nameAge {
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+}
+
+.age,
+.city,
+.meta {
+    font-weight: 400;
+    color: hsl(0, 11%, 12%);
+    opacity: .6;
+}
+
+.age {
+    font-weight: 400;
+}
+
+.cardFooter {
+    border-top: 1px solid hsl(0, 3%, 86%);
+    display: flex;
+    padding: 0 25px;
+}
+
+
+.cardFooter .item {
+    flex: 1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+.card h3 {
+    font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
