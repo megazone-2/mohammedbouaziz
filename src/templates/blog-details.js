@@ -22,7 +22,7 @@ export default function BlogDetails({data}) {
                 </div>
                 <h2 style={{textAlign:"center", marginTop:"2em"}}>{tit}</h2>
                 <h3 style={{textAlign:"center"}}>{desc}</h3>
-                <div className={maintext} className={html}  dangerouslySetInnerHTML={{__html: html}} />
+                <div className={html} style={{lineHeight: "1.6", marginLeft:"40px"}}  dangerouslySetInnerHTML={{__html: html}} />
                 <div style={{textAlign:"center", fontSize:"27px"}}>
                     <Link to={"https://www.facebook.com/TheNextWare"}>
                         <FontAwesomeIcon style={{marginRight:"40px", marginLeft:"40px"}} icon={faFacebookSquare} />    

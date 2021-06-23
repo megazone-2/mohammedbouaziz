@@ -20,6 +20,8 @@
 .maintext {
     text-align: justify;
     padding: 100px;
+    margin-left: 40px;
+    line-height: 1.6;
 }
 
 @media only screen and (min-width: 300px) {
