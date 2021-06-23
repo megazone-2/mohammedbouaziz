@@ -3,14 +3,14 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "G-3NHE4NKVXX",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        // Setting this parameter is optional
-        anonymize: true,
+        trackingIds: [
+          "G-91FFNSEFR2"
+        ],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     'gatsby-transformer-remark',
