@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from '../components/Layout'
+import { Helmet } from "react-helmet"
 import {header, btn, main, card, cardHeader, cardBody, imgHolder, nameAge, city, cardFooter, item, value, meta, image, section} from '../styles/home.module.css'
 import {graphql, Link} from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -8,6 +9,18 @@ import Img from "gatsby-image"
 export default function Home({ data }) {
  return (
     <Layout>
+        <Helmet>
+            <title>Full Stack Engineer Developper and PhD</title>
+            <meta name="description" content="Mohammed Bouaziz creates optimal, greatly tailored and engineered digital solutions for companies and individuals, delivered with council and accompaniment along the process, all to ensure unparalleled success" />
+            <meta name="keywords" content="technology, 
+                                                    business, digitalization, saas, 
+                                                    web, mobile, artificial intelligence, 
+                                                    Machine Learning, data, analytics, analysis,
+                                                    dashborad, Business Intelligence, full stack,
+                                                    engineer, developper, phd, digital,
+                                                    expert, software" />
+            <meta name="robots" content="index,follow"></meta>
+        </Helmet>
      <section className={header}>
         <div>
             <h2>Mohammed Bouaziz</h2>

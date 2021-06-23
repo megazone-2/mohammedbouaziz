@@ -16,6 +16,9 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -47,6 +50,7 @@ module.exports = {
                  path: `${__dirname}/src/images/`,
                 },
         },
+    
 
   ],
   siteMetadata: {
@@ -54,7 +58,8 @@ module.exports = {
     description: 'Mohammed Bouaziz creates optimal, greatly tailored and engineered digital solutions for companies and individuals, delivered with council and accompaniment along the process, all to ensure unparalleled success',
     copyright: 'This digital platform is copyright 2021 Mohammed Bouaziz',
     contact: 'contact@mohammedbouaziz.com',
-    url: "http://mohammedbouaziz.com",
+    url: "https://mohammedbouaziz.com",
+    siteUrl: 'https://mohammedbouaziz.com',
     twitterUsername:  "@techforbusines",
     facebookUsername: "@TheNextWare",
     author: "Mohammed Bouaziz"
