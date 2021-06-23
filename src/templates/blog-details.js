@@ -13,8 +13,8 @@ export default function BlogDetails({data}) {
     return (
         <Layout>
             <Seo 
-                title={data.markdownRemark.frontmatter.tit}
-                description={data.markdownRemark.frontmatter.description}
+                title={tit}
+                description={desc}
             />
             <div className={details}>
                 <div className={featured}>
