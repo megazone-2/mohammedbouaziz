@@ -57,7 +57,7 @@ This can be done on the B2B side as well, instead of having a manager looking fo
 <br/>
 <font size=4>Now a staggering amount of companies (93% according to google) around the world, are either fully digital and smart or have a strategy to do so in the near future, the pandemic played a major role in this reshape, as most of these companies were unaware of the power digitalisation. </font>
 
-*Link: [How to successfully digitilize your business](http://mohammedbouaziz.com/blog/how-to-successfully-digitilize-your-business)*
+*Link: [How to successfully digitilize your business](http://mohammedbouaziz.com/blog/make-your-business-digital-transformation-a-success)*
 
 
 
